@@ -2,11 +2,13 @@
 
 <html>
 
-    {{- partial "head.html" . -}}
+    {{- partial "head" (dict "title" (print "Aart Odding | " .Type)) -}}
 
     <body>
 
-        this is single
+        this is single<br>
+        {{ .Type }} <br> 
+
 
     </body>
 </html>
