@@ -1,32 +1,40 @@
+{{ $is_portfolio := or (eq .Type "portfolio") (eq .Type "page") }}
+{{ $is_software := eq .Type "software" }}
+{{ $is_blog := eq .Type "blog" }}
+
 <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container">
-                        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarMenu">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav mx-auto">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav" style="float: left;">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link {{ if $is_portfolio }} active {{ end }}">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/software" class="nav-link {{ if $is_software }} active {{ end }}">Software</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/blog" class="nav-link {{ if $is_blog }} active {{ end }}">Blog</a>
+                    </li>
+                </ul>
+                <div style="width:90%;">
+                    <ul class="navbar-nav" style="float: right;">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Software</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                    <img src="/img/instagram_svg.svg" style="width:40px;">
+                            <a href="https://www.instagram.com/aart_odding/" class="nav-link">
+                                <img src="/img/instagram_svg.svg" style="width:40px; margin-right: 10px;">
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="https://www.github.com/AartOdding" class="nav-link">
                                 <img src="/img/github_svg.svg" style="width:40px;">
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 </header>

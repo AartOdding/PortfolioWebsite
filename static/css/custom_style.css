@@ -1,6 +1,22 @@
 
+body 
+{
+    font-family: 'Libre Baskerville', serif;
+}
 
-p {
+.navbar
+{
+    padding: 3px;
+}
+
+p
+{
     font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav-item
+{
+    font-size: 22px;
     font-family: 'Libre Baskerville', serif;
 }
