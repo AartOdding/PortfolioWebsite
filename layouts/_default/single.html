@@ -1,18 +1,9 @@
-<!DOCTYPE html>
+{{ define "main" }}
 
-<html>
+    <div class = container>
 
-    {{- partial "head" (dict "title" (print "Aart Odding | " .Type)) -}}
+        This is the single template.
 
-    <body>
+    </div>
 
-        {{ partial "main_menu" . }}
-
-        <div class="container">
-            {{ .Content }}
-        </div>
-        
-        {{ partial "footer" . }}
-
-    </body>
-</html>
+{{ end }}

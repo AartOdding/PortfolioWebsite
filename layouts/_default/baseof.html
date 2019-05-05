@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!-- By default every page includes the head.html, main_menu.html and footer.html 
+    files. If it is necessary to not include these or use different components, 
+    their behaviour can be overridden by defining the block in the custom page.
+    see: https://gohugo.io/templates/base/ -->
+
+    {{ block "custom_head" . }}
+        {{ partial "head" . }}
+    {{ end }}
+
+    <body>
+
+        {{ block "custom_menu" . }}
+            {{ partial "main_menu" . }}
+        {{ end }}
+
+        {{ block "main" . }}
+            <!-- main content will be inserted here -->
+        {{ end }}
+
+        {{ block "custom_footer" . }}
+            {{ partial "footer" . }}
+        {{ end }}
+
+    </body>
+</html>

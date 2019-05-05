@@ -1,18 +1,9 @@
-<!DOCTYPE html>
+{{ define "main" }}
 
-<html>
+    <div class = container>
 
-    {{- partial "head" (dict "title" "Aart Odding | Portfolio") -}}
+        This is the list template.
 
-    <body>
+    </div>
 
-        {{ partial "main_menu" . }}
-
-        {{ .Type }} <br>
-
-        this is list
-
-        {{ partial "footer" . }}
-
-    </body>
-</html>
+{{ end }}

@@ -1,4 +1,4 @@
-{{ $is_portfolio := or (eq .Type "portfolio") (eq .Type "page") }}
+{{ $is_portfolio := or (eq .Type "portfolio") (.IsHome) }}
 {{ $is_software := eq .Type "software" }}
 {{ $is_blog := eq .Type "blog" }}
 
