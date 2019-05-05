@@ -1,6 +1,6 @@
 ---
 title: Creative Technology - Graduation Project
-year: 2018
+date: 2018-04-21T12:22:46.964Z
 priority: 0
 image: /img/img_1643.jpg
 ---
