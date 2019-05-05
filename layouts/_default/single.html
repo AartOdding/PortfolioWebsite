@@ -6,11 +6,13 @@
 
     <body>
 
+        {{ partial "main_menu" . }}
+
         <div class="container">
             {{ .Content }}
         </div>
         
-        {{ partial "scripts" . }}
+        {{ partial "footer" . }}
 
     </body>
 </html>
