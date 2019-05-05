@@ -11,7 +11,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Date", name: "date", widget: "date", dateFormat: "DD-MM-YYYY", timeFormat: false}
       - {label: "Priority", name: "priority", widget: "number", valueType: "int", default: 0}    
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
