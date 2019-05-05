@@ -6,8 +6,11 @@
 
     <body>
 
-        {{ .Content }}
-
+        <div>
+            {{ .Content }}
+        </div>
+        
+        {{ partial "scripts" . }}
 
     </body>
 </html>
