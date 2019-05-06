@@ -5,9 +5,9 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "portfolio_item"
-    label: "Portfolio Item"
-    folder: "content/portfolio"
+  - name: "project"
+    label: "Project"
+    folder: "content/projects"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
