@@ -1,7 +1,7 @@
 ---
 title: Creative Technology - Graduation Project
 date: 2018-04-21T12:22:46.964Z
-priority: 0
+featured: true
 image: /img/img_1643.jpg
 ---
 For my graduation project for my degree in Creative Technology at the University of Twente I choose to make an interactive art installation. 
