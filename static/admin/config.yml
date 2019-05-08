@@ -11,8 +11,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "date", dateFormat: "DD-MM-YYYY", timeFormat: false}
-      - {label: "Priority", name: "priority", widget: "number", valueType: "int", default: 0}    
+      - {label: "Project Date", name: "date", widget: "date", dateFormat: "DD-MM-YYYY", timeFormat: false}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}    
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "blog_post" # Used in routes, ie.: /admin/collections/:slug/edit

@@ -1,6 +1,6 @@
 {{ $page_name := .Type }}
-{{ if eq .Type "page" }}
-    {{ $page_name = "Projects" }}
+{{ if .IsHome }}
+    {{ $page_name = "About" }}
 {{ end }}
 
 <head>
