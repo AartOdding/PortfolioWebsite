@@ -20,3 +20,8 @@ p
     font-size: 22px;
     font-family: 'Libre Baskerville', serif;
 }
+
+#PortfolioItem
+{
+    margin-top: 20px;
+}
