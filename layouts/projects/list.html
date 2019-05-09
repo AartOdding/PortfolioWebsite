@@ -4,67 +4,78 @@
 
         <br><br><br>
 
+
+{{/******************************** Featured Projects ****************************************/}}
+
         <div class = "row">
 
-            {{ range .Pages }}
-                {{ if .Params.Featured}}
+{{ range .Pages }}
+    {{ if .Params.Featured}}
             
-                    <div class = "col-sm-6" style = "margin-bottom: 5%;">
-                        <div style="position: relative; width: 100%; padding-bottom: 100%;">
-                            <div style="position: absolute; width: 100%; height: 100%;">
+            <div class = "col-sm-6 ProjectRow">
+                <div class = "ProjectContainer">
+                    <div style="position: absolute; width: 100%; height: 100%;">
     
-                                <a href="{{ .Permalink }}">
-                                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class = "PortfolioThumbnail">
-                                    <h2 class="PortfolioThumbnailTitle">{{ .Title }}</h2>
-                                </a>
+                        <a href="{{ .Permalink }}">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" class = "ProjectThumbnail">
+                                <h2 class="ProjectThumbnailText">{{ .Title }}</h2>
+                        </a>
     
-                            </div>
-                        </div> 
                     </div>
+                </div> 
+            </div>
 
-                {{ end }}
-            {{ end }}  
+    {{ end }}
+{{ end }}
 
         </div>
 
+{{/*******************************************************************************************/}}
+
+
+
+{{/******************************** Projects per year ****************************************/}}
         
-        {{ $year := "" }}
-        {{ range first 1 .Pages }}
-            {{ $year = .Date.Format "2006" }}
-        {{ end }}
+{{ $year := "" }}
+{{ range first 1 .Pages }}
+    {{ $year = .Date.Format "2006" }}
+{{ end }}
 
-        <h2 class="PortfolioHeader">{{ $year }}</h2>
-
+        <h2 class="ProjectDivider">{{ $year }}</h2>
         <div class = "row">
 
-            {{ range .Pages }}
+{{ range .Pages }}
 
-        
+    {{/* for every page we check if the year has changed, so we can make a new divider if so. */}}
     {{ if not (eq $year (.Date.Format "2006")) }}
 
         </div>
+
         {{ $year = .Date.Format "2006" }}
-        <h2 class="PortfolioHeader">{{ $year }}</h2>
+
+        <h2 class="ProjectDivider">{{ $year }}</h2>
         <div class = "row">
 
     {{ end }}
 
-                <div class = "col-sm-6" style = "margin-bottom: 5%;">
-                    <div style="position: relative; width: 100%; padding-bottom: 100%;">
-                        <div style="position: absolute; width: 100%; height: 100%;">
+            <div class = "col-sm-6 ProjectRow">
+                <div class = "ProjectContainer">
+                    <div style="position: absolute; width: 100%; height: 100%;">
 
-                            <a href="{{ .Permalink }}">
-                                <img src="{{ .Params.image }}" alt="{{ .Title }}" class = "PortfolioThumbnail">
-                                <h2 class="PortfolioThumbnailTitle">{{ .Title }}</h2>
-                            </a>
+                        <a href="{{ .Permalink }}">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" class = "ProjectThumbnail">
+                            <h2 class="ProjectThumbnailText">{{ .Title }}</h2>
+                        </a>
 
-                        </div>
-                    </div> 
-                </div>
+                    </div>
+                </div> 
+            </div>
     
-            {{ end }}
+    {{ end }}
 
         </div>
+
+{{/*******************************************************************************************/}}
 
     </div>
 

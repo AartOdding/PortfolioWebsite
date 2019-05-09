@@ -1,0 +1,53 @@
+.ProjectRow
+{
+    margin-bottom: 5%;
+}
+
+
+.ProjectContainer
+{
+    /*  
+        This class is used to make the div's height relative to it's width
+        position needs to remain on relative, and width needs to stay on 100%
+        padding-bottom can be used to set the height a percentage of the width.
+        For explanation see: 
+        https://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout 
+    */
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;   /* if adjusted, also adjust width in .ProjectThumbnailText */
+}
+
+
+.ProjectThumbnail
+{
+    width:92%;          /* width and margin-left should together add up to 100% */
+    margin-left: 8%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+.ProjectThumbnailText
+{
+    position: absolute;
+    right:100%;
+    top: 0px;
+    color:red;
+    font-size: 16px;
+    width: 100%;           /* must always be equal to padding-bottom in .ProjectContainer */
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    transform-origin: top right;
+    transform: rotate(270deg);
+}
+
+
+.ProjectDivider
+{
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}

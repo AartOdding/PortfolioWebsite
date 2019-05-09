@@ -2,8 +2,10 @@
 #menu_bar
 {
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
+
 
 .menu_page
 {
@@ -11,11 +13,13 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+
 .menu_icon
 {
     width: 40px;
     margin-right: 10px;
 }
+
 
 #menu_button
 {
