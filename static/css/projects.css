@@ -31,8 +31,8 @@
 .ProjectThumbnailText
 {
     position: absolute;
-    right:100%;
-    top: 0px;
+    right:94%;
+    top: -19px;           /* This should be the negative of the height, necessary cause of transformation */
     color:red;
     font-size: 16px;
     width: 100%;           /* must always be equal to padding-bottom in .ProjectContainer */
@@ -40,7 +40,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-    transform-origin: top right;
+    transform-origin: bottom right;
     transform: rotate(270deg);
 }
 
