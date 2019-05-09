@@ -5,22 +5,12 @@ body
     background-color: #343a40;
 }
 
-.navbar
-{
-    padding: 3px;
-}
-
 p
 {
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
 }
 
-.nav-item
-{
-    font-size: 22px;
-    font-family: 'Libre Baskerville', serif;
-}
 
 .PortfolioThumbnail
 {
@@ -44,4 +34,16 @@ p
     font-size: 16px;
     width: 100%;
     text-align: right;
+    
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: clip;
+}
+
+.PortfolioHeader
+{
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-bottom: 2%;
 }

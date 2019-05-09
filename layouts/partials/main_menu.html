@@ -3,40 +3,50 @@
 {{ $is_blog     := eq .Type "blog"     }}
 
 <header>
+
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarMenu">
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu_bar" id="menu_button">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav" style="float: left;">
+
+            <div class="collapse navbar-collapse" id="menu_bar">
+
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="/" class="nav-link {{ if .IsHome }} active {{ end }}">About</a>
+                        <a href="/" class="menu_page nav-link {{ if .IsHome }} active {{ end }}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/projects" class="nav-link {{ if $is_projects }} active {{ end }}">Projects</a>
+                        <a href="/projects"
+                            class="menu_page nav-link {{ if $is_projects }} active {{ end }}">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/software" class="nav-link {{ if $is_software }} active {{ end }}">Software</a>
+                        <a href="/software"
+                            class="menu_page nav-link {{ if $is_software }} active {{ end }}">Software</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/blog" class="nav-link {{ if $is_blog }} active {{ end }}">Blog</a>
+                        <a href="/blog" class="menu_page nav-link {{ if $is_blog }} active {{ end }}">Blog</a>
                     </li>
                 </ul>
-                <div style="width:90%;">
-                    <ul class="navbar-nav" style="float: right;">
-                        <li class="nav-item">
-                            <a href="https://www.instagram.com/aart_odding/" class="nav-link">
-                                <img src="/img/instagram_svg.svg" style="width:40px; margin-right: 10px;">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://www.github.com/AartOdding" class="nav-link">
-                                <img src="/img/github_svg.svg" style="width:40px;">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
+                <!-- Filler -->
+                <div style="width:100%;"> </div>
+                <!-- Filler -->
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/aart_odding/" class="nav-link">
+                            <img class="menu_icon" src="/img/instagram_svg.svg">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.github.com/AartOdding" class="nav-link">
+                            <img class="menu_icon" src="/img/github_svg.svg">
+                        </a>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </nav>
