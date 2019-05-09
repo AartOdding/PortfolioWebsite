@@ -41,7 +41,11 @@
     {{ $year = .Date.Format "2006" }}
 {{ end }}
 
-        <h2 class="ProjectDivider">{{ $year }}</h2>
+        <div class = "ProjectDivider">
+            <hr>
+            <h2>{{ $year }}</h2>
+        </div>
+
         <div class = "row">
 
 {{ range .Pages }}
@@ -53,7 +57,11 @@
 
         {{ $year = .Date.Format "2006" }}
 
-        <h2 class="ProjectDivider">{{ $year }}</h2>
+        <div class = "ProjectDivider">
+            <hr>
+            <h2>{{ $year }}</h2>
+        </div>
+
         <div class = "row">
 
     {{ end }}

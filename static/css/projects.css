@@ -21,7 +21,7 @@
 
 .ProjectThumbnail
 {
-    width:92%;          /* width and margin-left should together add up to 100% */
+    width:92%;              /* width and margin-left should together add up to 100% */
     margin-left: 8%;
     height:100%;
     object-fit:cover;
@@ -32,10 +32,10 @@
 {
     position: absolute;
     right:94%;
-    top: -19px;           /* This should be the negative of the height, necessary cause of transformation */
+    top: -19px;             /* This should be the negative of the height, necessary cause of transformation */
     color:red;
     font-size: 16px;
-    width: 100%;           /* must always be equal to padding-bottom in .ProjectContainer */
+    width: 100%;            /* must always be equal to padding-bottom in .ProjectContainer */
     text-align: right;
     white-space: nowrap;
     overflow: hidden;
@@ -48,6 +48,22 @@
 .ProjectDivider
 {
     margin-left: 30%;
-    margin-top: 7%;
-    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.ProjectDivider h2
+{
+    font-size: 64px;
+    color: rgb(33, 37, 41);
+}
+
+.ProjectDivider hr
+{
+    margin-top: 0px;
+    margin-left: -10%;
+    margin-right: -1000px;
+    height: 0px;
+    border: none;
+    border-top: 5px solid rgb(33, 37, 41);
 }
