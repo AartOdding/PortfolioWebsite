@@ -2,7 +2,14 @@
 
     <div class = container>
 
-        This is the projects single template.
+        <div class = "ProjectDivider" style = "margin-left: 65%;">
+            <hr>
+            <h2>{{ .Date.Format "2006" }}</h2>
+        </div>
+
+        <h1 class="ProjectTitle">{{ .Title }}</h1>
+
+        {{ .Content }}
 
     </div>
 
