@@ -1,6 +1,6 @@
 .ProjectRow
 {
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 
@@ -34,7 +34,7 @@
     right:94%;
     top: -19px;             /* This should be the negative of the height, necessary cause of transformation */
     color: var(--AccentedTextColor);
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;            /* must always be equal to padding-bottom in .ProjectContainer */
     text-align: right;
     white-space: nowrap;
