@@ -33,7 +33,7 @@
     position: absolute;
     right:94%;
     top: -19px;             /* This should be the negative of the height, necessary cause of transformation */
-    color: var(--MutedTextColor);
+    color: var(--AccentColor);
     font-size: 22px;
     width: 100%;            /* must always be equal to padding-bottom in .ProjectContainer */
     text-align: right;
@@ -52,11 +52,13 @@
     margin-bottom: 6%;
 }
 
+
 .ProjectDivider h2
 {
     font-size: 64px;
     color: var(--MutedTextColor);
 }
+
 
 .ProjectDivider hr
 {

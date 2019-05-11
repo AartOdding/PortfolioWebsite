@@ -1,17 +1,19 @@
 :root
 {
-    --BackgroundColor: rgb(52, 58, 64);
+    --PageBackgroundColor: rgb(52, 58, 64);
+    --MenuBackgroundColor: rgb(52, 58, 64);
     --TextColor: rgb(204, 205, 207);
     --MutedTextColor: rgb(33, 37, 41);
     --AccentColor: rgb(255, 0, 0);
 }
 
 
-body 
+body
 {
     font-family: 'Libre Baskerville', serif;
-    background-color: var(--BackgroundColor)
+    background-color: var(--PageBackgroundColor)
 }
+
 
 p
 {
@@ -20,6 +22,8 @@ p
     color: var(--TextColor)
 }
 
-.ProjectTitle{
+
+.ProjectTitle
+{
     color: var(--AccentColor)
 }
