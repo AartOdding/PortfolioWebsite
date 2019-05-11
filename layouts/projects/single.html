@@ -2,14 +2,19 @@
 
     <div class = container>
 
-        <div class = "ProjectDivider" style = "margin-left: 65%;">
-            <hr>
-            <h2>{{ .Date.Format "2006" }}</h2>
+        <div class = "Divider" style = "padding-bottom: 4%"> </div>
+        
+        <div class = "row">
+
+            <div class = "col-sm-9 ProjectRow">
+
+                <h1 class="ProjectTitle">{{ .Title }}</h1>
+
+                {{ .Content }}
+
+            </div>
+
         </div>
-
-        <h1 class="ProjectTitle">{{ .Title }}</h1>
-
-        {{ .Content }}
 
     </div>
 

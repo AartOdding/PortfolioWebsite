@@ -2,16 +2,14 @@
 
     <div class = container>
 
-        <div class = "Divider" style = "padding-bottom: 4%">
-        </div>
-
+        <div class = "Divider" style = "padding-bottom: 4%"> </div>
 
 {{/******************************** Featured Projects ****************************************/}}
 
         <div class = "row">
 
 {{ range .Pages }}
-    {{ if .Params.Featured}}
+    {{ if .Params.Featured }}
             
             <div class = "col-sm-6 ProjectRow">
                 <div class = "ProjectContainer">
@@ -29,47 +27,11 @@
     {{ end }}
 {{ end }}
 
-        </div>
+{{/******************************** Projects by date *****************************************/}}
 
-{{/*******************************************************************************************/}}
-
-
-
-{{/******************************** Projects per year ****************************************/}}
-        
-{{ $year := "" }}
-{{ range first 1 .Pages }}
-    {{ $year = .Date.Format "2006" }}
-{{ end }}
-
-        <!--
-        <div class = "Divider" style = "padding: 5% 0% 5% 30%">
-            
-            <h2>{{ $year }}</h2>
-        </div>
-        -->
-
-        <div class = "row">
 
 {{ range .Pages }}
-
-    {{/* for every page we check if the year has changed, so we can make a new divider if so. */}}
-    {{ if not (eq $year (.Date.Format "2006")) }}
-
-        </div>
-
-        {{ $year = .Date.Format "2006" }}
-
-        <!--
-        <div class = "Divider" style = "padding: 5% 0% 5% 30%">
-            
-            <h2>{{ $year }}</h2>
-        </div>
-        -->
-
-        <div class = "row">
-
-    {{ end }}
+    {{ if not .Params.Featured }}
 
             <div class = "col-sm-6 ProjectRow">
                 <div class = "ProjectContainer">
@@ -85,11 +47,10 @@
             </div>
     
     {{ end }}
+{{ end }}
 
         </div>
-
-{{/*******************************************************************************************/}}
-
+        
     </div>
 
 {{ end }}
