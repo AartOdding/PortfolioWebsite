@@ -2,6 +2,6 @@
 title: Creative Coding Days 2019
 date: 2019-05-07T15:51:14.428Z
 featured: true
-image: /img/58543863_2146681268785875_9155082340316217344_n.jpg
+image: /img/m2xju7a.jpg
 ---
 wqddqw
