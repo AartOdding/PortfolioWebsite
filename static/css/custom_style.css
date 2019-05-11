@@ -1,6 +1,6 @@
 :root
 {
-    --PageBackgroundColor: rgb(29, 29, 29);
+    --PageBackgroundColor: rgb(255, 255, 255);
     --MenuBackgroundColor: var(--PageBackgroundColor);
     --MainTextColor: rgb(204, 205, 207);
     --MutedTextColor: rgb(33, 37, 41);
