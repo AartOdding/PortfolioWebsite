@@ -2,7 +2,7 @@
 {
     --PageBackgroundColor: rgb(255, 255, 255);
     --MenuBackgroundColor: var(--PageBackgroundColor);
-    --MainTextColor: rgb(204, 205, 207);
+    --MainTextColor: rgb(33, 37, 41);
     --MutedTextColor: rgb(33, 37, 41);
     --AccentedTextColor: #BEBEBE;
 }
