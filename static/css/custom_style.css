@@ -41,9 +41,14 @@ p
 
 .SidebarList
 {
+    overflow-x: hidden;
     list-style-type: none;
 }
 
+.SidebarList li
+{
+    overflow-x: hidden;
+}
 
 .SidebarList li a
 {
