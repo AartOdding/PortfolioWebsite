@@ -2,10 +2,20 @@
 
     <div class = container>
 
-        <p>
-            This is the single template.
-        </p>
+        <div class = "Divider" style = "padding-bottom: 4%"> </div>
         
+        <div class = "row">
+
+            <div class = "col-sm-9 ProjectRow">
+
+                <h1 class="ProjectTitle">{{ .Title }}</h1>
+
+                {{ .Content }}
+
+            </div>
+
+        </div>
+
     </div>
 
 {{ end }}
