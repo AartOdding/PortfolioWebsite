@@ -5,32 +5,40 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "about"
+    label: "About"
+    folder: "content/about"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Rank", name: "rank", widget: "number", valueType: "int", min: 1 }
   - name: "project"
     label: "Project"
     folder: "content/projects"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Project Date", name: "date", widget: "date", dateFormat: "DD-MM-YYYY", timeFormat: false}
-      - {label: "Featured", name: "featured", widget: "boolean", default: false}    
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project Date", name: "date", widget: "date", dateFormat: "DD-MM-YYYY", timeFormat: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }    
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "blog_post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Blog Post" # Used in the UI, ie.: "New Post"
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "software" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Software" # Used in the UI, ie.: "New Post"
     folder: "content/software" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Priority", name: "priority", widget: "number", valueType: "int", default: 0}  
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "date" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Priority", name: "priority", widget: "number", valueType: "int", default: 0 }  
+      - { label: "Body", name: "body", widget: "markdown" }
