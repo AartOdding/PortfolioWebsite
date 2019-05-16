@@ -11,6 +11,7 @@ collections:
     folder: "content/about"
     create: true
     fields:
+      - { label: "Draft",        name: "draft",    widget: "boolean", default: false }
       - { label: "Title",        name: "title",    widget: "string"   }
       - { label: "Rank",         name: "rank",     widget: "number",  valueType: "int", min: 1 }
       - { label: "Body",         name: "body",     widget: "markdown" }
@@ -19,6 +20,7 @@ collections:
     folder: "content/projects"
     create: true
     fields:
+      - { label: "Draft",        name: "draft",    widget: "boolean", default: false }
       - { label: "Title",        name: "title",    widget: "string"   }
       - { label: "Project Date", name: "date",     widget: "date",    dateFormat: "DD-MM-YYYY", timeFormat: false }
       - { label: "Featured",     name: "featured", widget: "boolean", default: false }
@@ -29,6 +31,7 @@ collections:
     folder: "content/blog"
     create: true
     fields:
+      - { label: "Draft",        name: "draft",    widget: "boolean", default: false }
       - { label: "Title",        name: "title",    widget: "string"   }
       - { label: "Publish Date", name: "date",     widget: "date"     }
       - { label: "Featured",     name: "featured", widget: "boolean", default: false }
@@ -38,6 +41,7 @@ collections:
     folder: "content/software"
     create: true
     fields:
+      - { label: "Draft",        name: "draft",    widget: "boolean", default: false }
       - { label: "Title",        name: "title",    widget: "string"   }
       - { label: "Publish Date", name: "date",     widget: "date"     }
       - { label: "Image",        name: "image",    widget: "image",   required: false }
