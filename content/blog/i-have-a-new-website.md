@@ -1,6 +1,7 @@
 ---
 title: I have a new website
 date: 2019-05-16T12:49:26.241Z
+featured: false
 ---
 And if you are reading this you are on it.
 
@@ -16,4 +17,4 @@ Using Hugo is a lot more like writing traditional web pages in html and css. The
 
 * Version control is much better, because you can use Github.
 
-Because I use netlify to automatically deploy my website from Github, it is also open source. You can see the source code [here](https://github.com/AartOdding/PortfolioWebsite).
+Because I use netlify to automatically deploy my website from Github, it is also open source. You can see the source code if you click on the Github icon in the top menu.
