@@ -17,4 +17,5 @@ Using Hugo is a lot more like writing traditional web pages in html and css. The
 
 * Version control is much better, because you can use Github.
 
-Because I use netlify to automatically deploy my website from Github, it is also open source. You can see the source code if you click on the Github icon in the top menu.
+Because I use netlify to automatically deploy my website from Github, it is also open source. You can view the source code on my Github page [here](https://github.com/AartOdding/PortfolioWebsite).
+
