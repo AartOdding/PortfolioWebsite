@@ -42,5 +42,11 @@ p
 .SidebarList
 {
     list-style-type: none;
+}
+
+
+.SidebarList li a
+{
     overflow-x: hidden;
+    margin-left: -5px;
 }
