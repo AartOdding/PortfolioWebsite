@@ -1,9 +1,9 @@
 ---
-title: My new website
+title: A new website!
 date: 2019-05-16T12:49:26.241Z
 featured: false
 ---
-And if you are reading this you are on it.
+And if you are reading this you are on it!
 
 I chose to use a static site generator (Hugo) for this website, and it's been a really  good experience. My old website was using wordpress and I would always run into limitations. Wordpress has a very inflexible structure, and if you want to customize your website you either needs lots of plugins, or hack your way around the wordpress code. Neither of which I like. 
 
