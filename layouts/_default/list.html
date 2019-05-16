@@ -2,10 +2,25 @@
 
     <div class = container>
 
-        <p>
-            This is the list template.
-        </p>
+        <div class = "Divider" style = "padding-bottom: 4%"> </div>
 
+        <div class = "row">
+
+            <div class = "col-sm-9">
+
+{{ range .Pages }}
+            
+                <h1>{{.Title}}</h1>
+                {{ .Content }}
+
+                <div class = "Divider" style = "padding-bottom: 4%"> </div>
+
+            </div>
+
+{{ end }}
+
+        </div>
+        
     </div>
 
 {{ end }}
