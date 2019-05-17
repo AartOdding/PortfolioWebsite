@@ -1,10 +1,9 @@
 backend:
   name: git-gateway
 
-media_folder:  "static/img" # Folder where user uploaded files should go
+media_folder:  "static/img"
 public_folder: "img"
 
-# A list of collections the CMS should be able to edit
 collections:
   - name:   "about"
     label:  "About"
@@ -33,6 +32,7 @@ collections:
     fields:
       - { label: "Draft",        name: "draft",    widget: "boolean", default: false }
       - { label: "Title",        name: "title",    widget: "string"   }
+      - { label: "Tags",         name: "tags",     widget: "list"     }
       - { label: "Publish Date", name: "date",     widget: "date"     }
       - { label: "Featured",     name: "featured", widget: "boolean", default: false }
       - { label: "Body",         name: "body",     widget: "markdown" }
