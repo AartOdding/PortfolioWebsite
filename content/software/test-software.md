@@ -1,6 +1,7 @@
 ---
-title: test software
+draft: false
+title: Test software item
 date: 2019-05-03T21:59:45.950Z
-priority: -2
+featured: false
 ---
-thisis the body of test software
+This is a test item.
