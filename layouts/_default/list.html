@@ -19,7 +19,7 @@
 
             </div>
 
-{{ if eq .Type "blog" }}
+{{ if or (eq .Type "blog") (eq .Kind "taxonomy") }}
     {{ partial "blog_sidebar" . }}
 {{ end }}
 

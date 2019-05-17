@@ -1,7 +1,7 @@
 {{ $is_about    := eq .Type "about"    }}
 {{ $is_projects := eq .Type "projects" }}
 {{ $is_software := eq .Type "software" }}
-{{ $is_blog     := eq .Type "blog"     }}
+{{ $is_blog     := or (eq .Type "blog") (eq .Kind "taxonomy") }}
 
 <header>
 
