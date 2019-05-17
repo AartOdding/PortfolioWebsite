@@ -2,6 +2,9 @@
 {{ if .IsHome }}
     {{ $page_name = "Home" }}
 {{ end }}
+{{ if eq .Kind "taxonomy" }}
+    {{ $page_name = "Blog" }}
+{{ end }}
 
 <head>
 
