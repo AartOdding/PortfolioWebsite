@@ -1,7 +1,7 @@
 ---
 draft: false
-title: Test software item
+title: Software
 date: 2019-05-03T21:59:45.950Z
 featured: false
 ---
-This is a test item.
+This part of my website is dedicated to code, software and programming. Right now it is still under construction. 
