@@ -1,0 +1,25 @@
+<div class = "col-sm-4">
+
+    <h3 class = "SidebarHeader">Categories</h3>
+    
+    <ul class = "SidebarList">
+{{ range $key, $value := .Site.Taxonomies.tags }}
+        <li>
+            <a href="/tags/{{$key}}">{{ $key }} ({{ $value.Count }})</a>
+        </li>
+{{ end }}
+    </ul>
+
+
+    <h3 class = "SidebarHeader">All Posts</h3>
+
+    <ul class = "SidebarList">
+{{ range .Pages }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+{{ end }}
+    </ul>
+
+
+</div>

@@ -1,3 +1,5 @@
 baseURL = "/"
 languageCode = "en-gb"
 title = "Aart Odding Portfolio Website"
+[taxonomies]
+    tag = "tags"

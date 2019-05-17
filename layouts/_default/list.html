@@ -19,6 +19,10 @@
 
             </div>
 
+{{ if eq .Type "blog" }}
+    {{ partial "blog_sidebar" . }}
+{{ end }}
+
         </div>
         
     </div>
