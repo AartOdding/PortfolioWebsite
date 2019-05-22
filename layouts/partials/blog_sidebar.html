@@ -22,10 +22,18 @@
     
 
         <ul class = "SidebarList">
-{{ range .Pages }}
+{{ if .IsPage }}
+    {{ range where .Site.RegularPages "Section" "blog" }}
             <li>
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </li>
+    {{ end }}
+{{ else }}
+    {{ range .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+    {{ end }}
 {{ end }}
         </ul>
 
