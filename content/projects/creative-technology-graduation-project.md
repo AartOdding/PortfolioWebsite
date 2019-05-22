@@ -1,5 +1,6 @@
 ---
-title: Creative Technology - Graduation Project
+draft: false
+title: Bachelor Graduation Project
 date: 2018-04-21T12:22:46.964Z
 featured: true
 image: /img/img_1643.jpg
