@@ -1,0 +1,19 @@
+<div class="image_gallery">
+
+    <img id="selected_image" style="width:100%">
+    
+    <div class = "row">
+
+{{ .Inner }}
+
+    </div>
+
+</div>
+
+<script>
+    function select_image(new_image) 
+    {
+        var selected_image = document.getElementById("selected_image");
+        selected_image.src = new_image.src;
+    }
+</script>
