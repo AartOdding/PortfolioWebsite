@@ -9,7 +9,7 @@ Supernova is an interactive art installation, where people are literally surroun
 
 {{< vimeo 337633086 >}}
 <br>
-blablabla
+The project was build using TouchDesigner, and custom OpenGL shaders. The canvas is tracked using four Kinects placed above it. The projections come from two large beamers placed above the installation. If you are interested in more technical details you can read more in [this](https://www.aartodding.nl/blog/how-supernova-works/) blogpost.
 
 {{< gallery >}}
 {{< gallery_img "/img/fabric-8.jpg" >}}
