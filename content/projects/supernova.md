@@ -12,8 +12,8 @@ Supernova is an interactive art installation, where people are literally surroun
 blablabla
 
 {{< gallery >}}
-{{< gallery_img "/img/fabric-5.jpg" >}}
 {{< gallery_img "/img/fabric-8.jpg" >}}
+{{< gallery_img "/img/fabric-5.jpg" >}}
 {{< gallery_img "/img/fabric-9.jpg" >}}
 {{< gallery_img "/img/fabric-15.jpg" >}}
 {{< gallery_img "/img/fabric-17.jpg" >}}
