@@ -2,7 +2,7 @@
 draft: false
 title: A new website!
 tags:
-  - ''
+  - Website
 date: 2019-05-16T12:49:26.241Z
 featured: false
 ---
