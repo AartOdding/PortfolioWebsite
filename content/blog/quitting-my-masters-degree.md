@@ -3,7 +3,6 @@ draft: false
 title: Quitting my masters degree
 tags:
   - Personal
-  - test
 date: 2019-05-15T19:13:06.800Z
 featured: false
 ---
