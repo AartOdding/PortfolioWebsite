@@ -3,7 +3,7 @@ draft: false
 title: Installation for Gogbot 2018
 date: 2018-09-06T11:31:45.442Z
 featured: true
-image: /img/gogbot-7.jpg
+image: /img/gogbot-1.jpg
 ---
 {{< vimeo 337979070 >}}
 <br>
