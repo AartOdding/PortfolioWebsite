@@ -24,6 +24,7 @@
         var gallery = new_image.closest(".Gallery");
         var visible_image = gallery.querySelector("img");
         visible_image.src = new_image.src;
+        visible_image.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
     }
 
 </script>
