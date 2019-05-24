@@ -11,8 +11,6 @@ During my graduation I did user tests with multiple different effects to find ou
 
 {{< vimeo 337979070 >}}
 
-<br>
-
 {{< gallery >}}
 {{< gallery_img "/img/gogbot-1.jpg" >}}
 {{< gallery_img "/img/gogbot-2.jpg" >}}
