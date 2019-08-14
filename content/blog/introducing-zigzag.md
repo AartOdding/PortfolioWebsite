@@ -8,7 +8,7 @@ featured: false
 ---
 ![ZigZag august 2019](/img/ZigZag-aug-2019.png)
 
-In the past few months I have been working on my latest project: ZigZag. Zigzag is a tool for creating realtime rendered computer graphics. The idea of this program is to allow people to create applications based on realtime rendered graphics, without many of the hassles that come with programming such a project. Especially for interactive installations ZigZag will be a very valuable tool.
+In the past few months I have been working on my latest project: ZigZag. ZigZag is a tool for creating realtime rendered computer graphics. The idea of this program is to allow people to create realtime graphics, without many of the hassles that come with programming such a project from scratch. Especially for interactive installations ZigZag will be a very valuable tool.
 
 The initial idea for ZigZag came from seeing the possibilities for graphics programming that analog visual synthesizers give you. I wanted to create a sort of program where different modules filter the signals that pass through them. The modules would be connected with patch cables to allow for complex visual effects.
 
