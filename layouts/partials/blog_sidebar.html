@@ -4,9 +4,10 @@
         <h3 class = "SidebarHeader">Categories</h3>
     
         <ul class = "SidebarList">
+            <!--
             <li>
                 <a href="/blog">All</a>
-            </li>
+            </li>-->
 {{ range $key, $value := .Site.Taxonomies.tags }}
             <li>
                 <a href="/tags/{{$key}}">{{ $key | title }} ({{ $value.Count }})</a>
