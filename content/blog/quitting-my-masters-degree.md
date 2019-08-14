@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Quitting my masters degree
+title: Starting for myself
 tags:
   - Personal
 date: 2019-05-15T19:13:06.800Z
