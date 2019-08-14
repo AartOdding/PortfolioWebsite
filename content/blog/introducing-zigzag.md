@@ -10,9 +10,9 @@ featured: false
 
 In the past few months I have been working on my latest project: ZigZag. ZigZag is a tool for creating realtime rendered computer graphics. The idea of this program is to allow people to create realtime graphics, without many of the hassles that come with programming such a project from scratch. Especially for interactive installations ZigZag will be a very valuable tool.
 
-The initial idea for ZigZag came from seeing the possibilities for graphics programming that analog visual synthesizers give you. I wanted to create a sort of program where different modules filter the signals that pass through them. The modules would be connected with patch cables to allow for complex visual effects.
+The initial idea for ZigZag came from seeing the possibilities for creating graphics with analog visual synthesizers. I wanted to create a sort of program where different modules filter the signals that pass through them, that can always be reused. The modules would be connected with patch cables to allow for complex visual effects. The attraction would be full customisability by programming your own operators, but also full reusability, by making the operators modular.
 
-Then I found out about the existence of TouchDesigner. TouchDesigner had a lot of the features I wanted to see in my own program, so I decided to just learn that instead of taking the time to build my own program. However as I was getting more and more comfortable with TouchDesigner I started seeing things that I would have liked differently. Witth that ZigZag was started.
+Then I found out about the existence of TouchDesigner. TouchDesigner had a lot of the features I wanted to see in my own program, so I decided to just learn that instead of taking the time to build my own program. However as I was getting more and more comfortable with TouchDesigner I started seeing things that I would have liked differently. With that ZigZag was started.
 
 Right now ZigZag is still in a very early phase of development with no official releases yet. However a lot of the core features are already in place (as can be seen in the picture above). 
 
