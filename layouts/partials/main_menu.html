@@ -1,6 +1,5 @@
 {{ $is_about    := eq .Type "about"    }}
 {{ $is_projects := eq .Type "projects" }}
-{{ $is_software := eq .Type "software" }}
 {{ $is_blog     := or (eq .Type "blog") (eq .Kind "taxonomy") }}
 
 <header>
@@ -22,10 +21,6 @@
                     <li class="nav-item">
                         <a href="/projects"
                             class="menu_page nav-link {{ if $is_projects }} active {{ end }}">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/software"
-                            class="menu_page nav-link {{ if $is_software }} active {{ end }}">Software</a>
                     </li>
                 </ul>
 
