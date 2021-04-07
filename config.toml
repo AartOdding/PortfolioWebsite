@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.aartodding.nl/"
 languageCode = "en-gb"
 title = "Aart Odding Portfolio Website"
 [taxonomies]
