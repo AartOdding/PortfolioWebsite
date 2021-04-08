@@ -1,5 +1,4 @@
 baseURL = "https://www.aartodding.nl/"
 languageCode = "en-gb"
 title = "Aart Odding Portfolio Website"
-[taxonomies]
-    tag = "tags"
+disableKinds = ["taxonomy", "term"]
