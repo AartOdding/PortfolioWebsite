@@ -1,9 +1,7 @@
 ---
-draft: false
 title: GOGBOT Festival 2018
-date: 2018-09-06T11:31:45.442Z
-featured: false
 image: /img/gogbot2018/gogbot-1.jpg
+rank: 130
 ---
 {{< vimeo 337979070 >}}
 {{< break >}}

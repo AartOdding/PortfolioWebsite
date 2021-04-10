@@ -1,9 +1,7 @@
 ---
-draft: false
 title: Supernova
-date: 2019-05-21T22:40:38.348Z
-featured: false
 image: /img/supernova/supernova-9.jpg
+rank: 110
 ---
 Supernova is an interactive art installation that is all around you. People are invited to stand underneath a large canvas suspended in mid air. Their interactions with the canvas shape the visual effects around them.
 

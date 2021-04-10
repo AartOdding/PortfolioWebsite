@@ -1,9 +1,7 @@
 ---
-draft: false
 title: ZigZag
-date: 2019-08-14T15:19:55.316Z
 image: /img/zigzag/zigzag-capture.png
-featured: false
+rank: 120
 ---
 ![ZigZag](/img/zigzag/zigzag-capture.png "The ZigZag user interface.")
 

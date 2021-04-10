@@ -1,9 +1,7 @@
 ---
-draft: false
 title: Spacebar Enschede
-date: 2020-09-06T11:31:45.442Z
-featured: false
 image: /img/spacebar/spacebar-1.jpg
+rank: 100
 ---
 I built an interactive art installation for Spacebar in Enschede. It is placed in the entrance to make people feel like they are entering the future when they enter this space and cyber themed bar.
 {{< break >}}
