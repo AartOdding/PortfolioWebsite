@@ -9,4 +9,4 @@ draft: false
 - C#
 - Gui programming
 - Version control
-- Soft skills?
+- Qt
