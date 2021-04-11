@@ -5,8 +5,8 @@ draft: false
 ---
 - Modern C++
 - Graphics programming 
-- Cmake
+- CMake
 - C#
-- Gui programming
 - Version control
-- Qt
+- GUI frameworks (Qt, JUCE etc.)
+- Working with very large codebases
