@@ -27,16 +27,23 @@
                 <!-- Filler -->
                 <div style="width:100%;"> </div>
                 <!-- Filler -->
+
+                <script>
+                    function hoverGithub(element) { element.setAttribute('src', '/icons/github_svg_dark.svg'); }
+                    function unhoverGithub(element) { element.setAttribute('src', '/icons/github_svg.svg'); }
+                    function hoverInstagram(element) { element.setAttribute('src', '/icons/instagram_svg_dark.svg'); }
+                    function unhoverInstagram(element) { element.setAttribute('src', '/icons/instagram_svg.svg'); }
+                </script>
                 
                 <ul class="navbar-nav d-none d-sm-flex">
                     <li class="nav-item">
                         <a href="https://www.instagram.com/aart_odding/" class="nav-link" target="_blank">
-                            <img class="menu_icon" src="/icons/instagram_svg.svg">
+                            <img class="menu_icon" src="/icons/instagram_svg.svg" onmouseenter="hoverInstagram(this);" onmouseout="unhoverInstagram(this);">
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.github.com/AartOdding" class="nav-link" target="_blank">
-                            <img class="menu_icon" src="/icons/github_svg.svg">
+                            <img class="menu_icon" src="/icons/github_svg.svg" onmouseenter="hoverGithub(this);" onmouseout="unhoverGithub(this);">
                         </a>
                     </li>
                 </ul>
