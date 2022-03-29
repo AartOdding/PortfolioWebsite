@@ -1,12 +1,13 @@
 ---
-title: Hello
+title: Hey!
 rank: 1
 draft: false
 ---
-My name is Aart, I am a freelance programmer from the Hague, the Netherlands. 
+My name is Aart. I am a 3D graphics programmer always trying to combine my technical knowledge with creativity to build fun, interactive and artistic projects.
 
-My passion lies in creative coding. I love creating interactive art projects with code. I have also spend a great deal of time creating tools to aid the design process of creative coding projects.
+Professionally I mostly work on 3D geometry manipulation algorithms. I love working on challenging problems, and creating performant and maintainable code. I have set up multiple large projects from the ground up and am no stranger to the entire lifecycle of software development and complex codebases.
 
-I have worked for multiple companies professionally in the past years, where I have mainly focused on creating high performance and reliable user interfaces.
-
-To find out more about me or my work please visit the projects page on this website, my [Instagram](https://www.instagram.com/aart_odding/) or my [GitHub](https://github.com/AartOdding).
+To see some of the previous projects I have worked on check out the [projects](/projects) page on this website, or check out one of my socials:
+- [Instagram](https://www.instagram.com/aart_odding/)
+- [GitHub](https://github.com/AartOdding)
+- [LinkedIn](https://www.linkedin.com/in/aart-odding/)
