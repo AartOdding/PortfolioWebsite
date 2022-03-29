@@ -1,7 +1,7 @@
 ---
 title: GOGBOT Festival 2018
 image: /img/gogbot2018/gogbot-1.jpg
-rank: 130
+rank: 100
 ---
 {{< vimeo 337979070 >}}
 {{< break >}}
