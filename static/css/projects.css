@@ -51,5 +51,5 @@
 
 .ProjectContainer:hover .ProjectThumbnail
 {
-    opacity: 0.6;
+    filter: brightness(1.5);
 }

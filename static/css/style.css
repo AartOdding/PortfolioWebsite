@@ -3,7 +3,6 @@
     --PageBackgroundColor: #1D1F20;
     --MenuBackgroundColor: var(--PageBackgroundColor);
     --MainTextColor: rgb(230, 230, 230);
-    --MutedTextColor: rgb(33, 37, 41);
     --AccentedTextColor: rgb(56, 142, 185);
 }
 
