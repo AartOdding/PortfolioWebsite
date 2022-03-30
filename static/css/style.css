@@ -7,7 +7,6 @@
 }
 
 
-
 body
 {
     font-family: 'Libre Baskerville', serif;
@@ -15,12 +14,26 @@ body
     overflow-x: hidden;
 }
 
-
 p
 {
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     color: var(--MainTextColor);
+}
+
+a
+{
+    color: var(--AccentedTextColor)
+}
+
+h1, h2, h3, h4
+{
+    color: var(--MainTextColor);
+}
+
+img
+{
+    width: 100%;
 }
 
 
@@ -31,15 +44,9 @@ p
     overflow-x: hidden;
 }
 
-
 .SidebarList
 {
     overflow-x: hidden;
     padding-left: 0px;
     list-style-type: none;
-}
-
-img
-{
-    width: 100%;
 }
