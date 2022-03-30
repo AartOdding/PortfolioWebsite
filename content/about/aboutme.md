@@ -3,7 +3,7 @@ title: Hey!
 rank: 1
 draft: false
 ---
-My name is Aart. I am a 3D graphics programmer always trying to combine my technical knowledge with creativity to build fun, interactive and artistic projects.
+My name is Aart. I am a 3D graphics programmer always striving to combine my technical knowledge with creativity to build fun, interactive and artistic projects.
 
 Professionally I mostly work on 3D geometry manipulation algorithms. I love working on challenging problems, and creating performant and maintainable code. I have set up multiple large projects from the ground up and am no stranger to the entire lifecycle of software development and complex codebases.
 
