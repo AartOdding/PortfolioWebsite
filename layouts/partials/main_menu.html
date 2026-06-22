@@ -1,5 +1,6 @@
 {{ $is_about    := eq .Type "about"    }}
 {{ $is_projects := eq .Type "projects" }}
+{{ $is_resume   := eq .Type "resume"   }}
 
 <header>
 
@@ -20,6 +21,10 @@
                     <li class="nav-item">
                         <a href="/projects"
                             class="menu_page nav-link {{ if $is_projects }} active {{ end }}">Projects!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/resume"
+                            class="menu_page nav-link {{ if $is_resume }} active {{ end }}">Resume!</a>
                     </li>
                 </ul>
 
